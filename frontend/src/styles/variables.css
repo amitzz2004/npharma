@@ -1,0 +1,37 @@
+:root {
+  /* Brand colors */
+  --color-primary: #0f766e;       /* teal - medical/pharma trust */
+  --color-primary-dark: #115e59;
+  --color-primary-light: #ccfbf1;
+  --color-accent: #1d4ed8;        /* blue - surgical/clinical */
+  --color-accent-light: #dbeafe;
+
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8fafc;
+  --color-bg-dark: #0b2530;
+
+  --color-text: #0f172a;
+  --color-text-muted: #64748b;
+  --color-text-light: #94a3b8;
+  --color-border: #e2e8f0;
+
+  --color-success: #16a34a;
+  --color-error: #dc2626;
+  --color-white: #ffffff;
+
+  /* Typography */
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  /* Radius & shadow */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.1);
+  --shadow-lg: 0 20px 40px rgba(15, 23, 42, 0.14);
+
+  /* Layout */
+  --container-width: 1180px;
+  --header-height: 66px;
+}

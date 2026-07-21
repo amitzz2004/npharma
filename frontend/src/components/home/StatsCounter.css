@@ -1,0 +1,24 @@
+.stats-counter {
+  background: linear-gradient(135deg, var(--color-primary-dark), var(--color-accent));
+  padding: 50px 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  text-align: center;
+}
+
+.stat-item strong {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  color: #fff;
+  margin-bottom: 6px;
+}
+.stat-item span { color: rgba(255,255,255,0.85); font-size: 0.9rem; font-weight: 500; }
+
+@media (max-width: 700px) {
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+}

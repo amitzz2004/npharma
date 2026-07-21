@@ -1,0 +1,58 @@
+.about-preview-inner {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-preview-image { position: relative; }
+.about-image-main {
+  width: 100%;
+  aspect-ratio: 4 / 4.4;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(150deg, var(--color-primary-light), var(--color-accent-light));
+  background-image: url('/assets/images/hero-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: var(--shadow-md);
+}
+.about-image-badge {
+  position: absolute;
+  bottom: -24px;
+  right: -20px;
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  padding: 20px 26px;
+  text-align: center;
+}
+.about-image-badge strong { display: block; font-size: 1.7rem; color: var(--color-primary); font-family: var(--font-heading); }
+.about-image-badge span { font-size: 0.78rem; color: var(--color-text-muted); }
+
+.about-preview-content .eyebrow {
+  display: inline-block;
+  color: var(--color-primary);
+  background: var(--color-primary-light);
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.about-preview-content h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); margin-bottom: 18px; }
+.about-preview-content > p { color: var(--color-text-muted); margin-bottom: 24px; }
+
+.about-points { margin-bottom: 30px; }
+.about-points li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.about-points svg { color: var(--color-primary); flex-shrink: 0; }
+
+@media (max-width: 860px) {
+  .about-preview-inner { grid-template-columns: 1fr; }
+  .about-image-badge { position: static; margin-top: -40px; margin-left: 20px; display: inline-block; }
+}

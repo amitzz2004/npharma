@@ -1,0 +1,25 @@
+.product-card { padding: 28px; }
+
+.product-card-icon {
+  width: 52px; height: 52px;
+  border-radius: var(--radius-sm);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem;
+  margin-bottom: 18px;
+  color: #fff;
+}
+.product-card-icon.medicine { background: linear-gradient(135deg, var(--color-primary), #14b8a6); }
+.product-card-icon.surgical { background: linear-gradient(135deg, var(--color-accent), #3b82f6); }
+
+.product-card h3 { font-size: 1.1rem; margin-bottom: 10px; }
+.product-card p { color: var(--color-text-muted); font-size: 0.92rem; margin-bottom: 16px; }
+
+.product-card-tags { display: flex; gap: 8px; flex-wrap: wrap; }
+.product-card-tags span {
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: var(--color-bg-alt);
+  color: var(--color-text-muted);
+  padding: 5px 12px;
+  border-radius: 999px;
+}
