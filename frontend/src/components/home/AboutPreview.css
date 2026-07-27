@@ -11,7 +11,7 @@
   aspect-ratio: 4 / 4.4;
   border-radius: var(--radius-lg);
   background: linear-gradient(150deg, var(--color-primary-light), var(--color-accent-light));
-  background-image: url('/assets/images/hero-banner.jpg');
+  background-image: url('/assets/images/about-preview.jpg');
   background-size: cover;
   background-position: center;
   box-shadow: var(--shadow-md);

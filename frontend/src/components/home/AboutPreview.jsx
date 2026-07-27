@@ -15,7 +15,7 @@ const AboutPreview = () => {
     <section className="section about-preview">
       <div className="container about-preview-inner">
         <div className="about-preview-image">
-          <div className="about-image-main" />
+          <div className="about-image-main" aria-label={`${companyInfo.name} facility`} />
           <div className="about-image-badge">
             <strong>{companyInfo.yearsInBusiness}+</strong>
             <span>Years of Trust</span>
