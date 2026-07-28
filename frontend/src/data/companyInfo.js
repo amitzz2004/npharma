@@ -6,10 +6,10 @@ export const companyInfo = {
   email: "nandinipharma6@gmail.com",
   salesEmail: "nandinipharma6@gmail.com",
   address: "24B/17 , MG Marg , Near Amar Ujala office, Patthar Girjaghar, Civil lines , Prayagraj",
-  gstNumber: ".",
+  gstNumber: "09BHEPN8426R1ZG",
   drugLicenseNumbers: {
-    wholesale: ".",
-    retail: ".",
+    wholesale: "WLF20B2025UP002001/WLF21B2025UP001988",
+    retail: "RLF20UP2025004998/RFL21UP2025004959",
   },
   workingHours: "Mon - Sat: 9:00 AM - 7:00 PM",
   yearsInBusiness: 15,
@@ -20,5 +20,5 @@ export const companyInfo = {
     instagram: "https://instagram.com",
   },
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d10976.704242306934!2d81.81331369352209!3d25.451278232308283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s24B%2F17%20%2C%20MG%20Marg%20%2C%20Near%20Amar%20Ujala%20office%2C%20Patthar%20Girjaghar%2C%20Civil%20lines%20%2C%20Prayagraj!5e1!3m2!1sen!2sin!4v1785178248913!5m2!1sen!2sin",
+    "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2744.19879003048!2d81.82073597539008!3d25.450281077548855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDI3JzAxLjAiTiA4McKwNDknMjMuOSJF!5e1!3m2!1sen!2sin!4v1785254176948!5m2!1sen!2sin",
 };
