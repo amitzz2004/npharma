@@ -1,18 +1,60 @@
-.product-card { padding: 28px; }
-
-.product-card-icon {
-  width: 52px; height: 52px;
-  border-radius: var(--radius-sm);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 1.4rem;
-  margin-bottom: 18px;
-  color: #fff;
+.product-card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
-.product-card-icon.medicine { background: linear-gradient(135deg, var(--color-primary), #14b8a6); }
-.product-card-icon.surgical { background: linear-gradient(135deg, var(--color-accent), #3b82f6); }
 
-.product-card h3 { font-size: 1.1rem; margin-bottom: 10px; }
-.product-card p { color: var(--color-text-muted); font-size: 0.92rem; margin-bottom: 16px; }
+.product-card-image-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: var(--color-bg-alt);
+  overflow: hidden;
+}
+
+.product-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+.product-card:hover .product-card-image {
+  transform: scale(1.06);
+}
+
+.product-card-image-fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  color: var(--color-text-light);
+  background: linear-gradient(135deg, var(--color-bg-alt), var(--color-border));
+}
+
+.product-card-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #fff;
+  box-shadow: var(--shadow-sm);
+}
+.product-card-badge.medicine { background: linear-gradient(135deg, var(--color-primary), #14b8a6); }
+.product-card-badge.surgical { background: linear-gradient(135deg, var(--color-accent), #3b82f6); }
+
+.product-card-body { padding: 22px 24px 26px; }
+
+.product-card-body h3 { font-size: 1.05rem; margin-bottom: 10px; }
+.product-card-body p { color: var(--color-text-muted); font-size: 0.9rem; margin-bottom: 16px; }
 
 .product-card-tags { display: flex; gap: 8px; flex-wrap: wrap; }
 .product-card-tags span {
